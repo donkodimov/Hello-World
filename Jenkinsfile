@@ -10,7 +10,7 @@ pipeline {
                  '''
                  sh '''
                      echo "Test website content access"
-                     curl -s -o /dev/null  http://s3-pipelines.s3-website-us-west-2.amazonaws123.com/ ; ec=$?; echo $ec
+                     curl -s -o /dev/null  http://s3-pipelines.s3-website-us-west-2.amazonaws.com/ ; ec=$?; echo $ec
                  '''
              }
          }

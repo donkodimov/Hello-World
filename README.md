@@ -21,7 +21,7 @@ Jenkins server with following components installed & configured:
 Contains the definition of a Jenkins Pipeline and four-stage continuous deployment pipeline.
 
 ### 1. Stage Build
-The sh steps invoke echo and curl commands. The last step check if URL is accessible and returns exitcode.
+The sh steps invoke echo and curl commands. The last step check if URL is accessible and returns exit code.
 Any non-zero exit code will fail the Pipeline.
 
 ### 2. Stage Lint HTML

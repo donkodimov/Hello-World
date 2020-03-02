@@ -32,3 +32,12 @@ Enables scanning of docker builds in Jenkins for OS package vulnerabilities usin
 
 ### 4. Stage Upload to AWS
 Upload content to AWS S3 with AWS credentials.
+
+## Resources
+
+* [owreadjenkins](https://github.com/owreadjenkins/course3lesson2)
+
+
+## License
+
+The contents of this repository are covered under the [GNU General Public License](LICENSE).
